@@ -44,7 +44,7 @@ export default function TasksPage() {
           <button key={tab.key}
             onClick={() => setFilter(tab.key)}
             style={{
-              padding: '8px 16px', borderRadius: '20px', border: 'none', cursor: 'pointer',
+              padding: '8px 16px', borderRadius: '20px', cursor: 'pointer',
               background: filter === tab.key ? 'var(--amber)' : 'var(--stage)',
               color: filter === tab.key ? '#000' : 'var(--text-secondary)',
               fontSize: '13px', fontWeight: filter === tab.key ? '600' : '400',
